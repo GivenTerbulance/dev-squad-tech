@@ -105,6 +105,9 @@ Retrieve system statistics.
 
 ### GET `/api/admin/users`
 List all users with activity counts (paginated).
+- **Query Params**:
+  - `page`, `limit`
+  - `search` (filter by user name or email)
 
 ### PATCH `/api/admin/users/:id`
 Change a user's role.
